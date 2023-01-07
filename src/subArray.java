@@ -1,10 +1,12 @@
 public class subArray {
+     //given an array write a function to print the elements of this array between
+     // start index and end index.
 
-    public static int getSubArraySum(int[] arr,int startIndex,int endIndex){
-        int sum =0;
+    static void printSubArray(int[] arr,int startIndex,int endIndex){
+
         for(int i=startIndex;i<=endIndex;i++){
-            sum=sum+arr[i];
+            System.out.println(arr[i]);
         }
-        return sum;
+
     }
 }
