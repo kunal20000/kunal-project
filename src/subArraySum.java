@@ -12,7 +12,7 @@ public class subArraySum {
 
 
     public static void main(String[] args){
-     int[] arr=int[], int,int;
+     int[] arr=  int[], int,int;
      System.out.println(getSubArraySum(arr));
     }
 
